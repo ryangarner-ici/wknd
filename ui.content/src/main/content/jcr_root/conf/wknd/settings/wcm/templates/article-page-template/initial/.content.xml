@@ -2,19 +2,23 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-05-17T14:09:46.248-04:00"
-        cq:lastModifiedBy="admin"
-        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Home"
         sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
-                jcr:created="{Date}2018-05-17T14:03:09.560-04:00"
+            <header
+                jcr:created="{Date}2018-05-17T13:58:45.811-04:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-05-17T14:03:13.817-04:00"
+                jcr:lastModified="{Date}2018-05-17T13:59:02.662-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/structure/header"/>
+            <responsivegrid
+                jcr:created="{Date}2018-05-17T13:59:45.417-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-05-17T14:00:07.281-04:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>

@@ -2,11 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2018-05-17T14:06:10.937-04:00"
+        cq:lastModified="{Date}2018-05-17T14:02:10.888-04:00"
         cq:lastModifiedBy="admin"
-        cq:templateType="/conf/wknd/settings/wcm/template-types/content-page"
-        jcr:description="Simple content page for WKND Site"
+        cq:templateType="/conf/wknd/settings/wcm/template-types/empty-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Content Page"
+        jcr:title="Article Page Template"
         status="enabled"/>
 </jcr:root>
