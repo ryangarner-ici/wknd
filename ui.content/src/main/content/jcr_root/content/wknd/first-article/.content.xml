@@ -2,8 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-05-17T14:11:15.510-04:00"
+        cq:lastModified="{Date}2018-05-18T10:58:30.759-04:00"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2018-05-18T10:21:59.053-04:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Deactivate"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="First Article"
@@ -25,21 +28,104 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <breadcrumb
-                    jcr:created="{Date}2018-05-17T14:11:03.356-04:00"
+                <text_1342257060
+                    jcr:created="{Date}2018-05-18T10:34:27.373-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-05-17T14:11:03.356-04:00"
+                    jcr:lastModified="{Date}2018-05-18T10:34:59.647-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/content/breadcrumb"/>
-                <image
-                    jcr:created="{Date}2018-05-17T14:11:15.508-04:00"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>Hello World!&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <text
+                    jcr:created="{Date}2018-05-18T10:28:52.463-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-05-17T14:11:15.508-04:00"
+                    jcr:lastModified="{Date}2018-05-18T10:33:39.947-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf k&amp;nbsp;fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf k&amp;nbsp;fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf k&amp;nbsp;fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf k&amp;nbsp;fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf k&amp;nbsp;fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </text>
+                <text_1297204197
+                    jcr:created="{Date}2018-05-18T10:29:50.370-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-05-18T10:30:58.576-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf k&amp;nbsp;fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf k&amp;nbsp;fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf k&amp;nbsp;fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf k&amp;nbsp;fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf k&amp;nbsp;fdsafdsa fdklsafjkldsa fkdlasj fkldsakfdjsa kjfldsjaklfdklahvcvj anrejkvh nfej hvdas njkaevh ejlfdiv afjhe fjv jcdajeijaifje jkfdsajf&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </text_1297204197>
+                <image
+                    jcr:created="{Date}2018-05-18T10:27:19.565-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-05-18T10:58:24.152-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/image"
-                    fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/fjord-waves.jpg"/>
+                    fileReference="/content/dam/wknd/en/los-angeles/chris-brignola-7766.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </image>
+                <image_197232412
+                    jcr:created="{Date}2018-05-18T10:27:24.584-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-05-18T10:58:26.319-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    fileReference="/content/dam/wknd/en/los-angeles/robson-hatsukami-morgan-280159.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="none"
+                            offset="0"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </image_197232412>
+                <image_593468405
+                    jcr:created="{Date}2018-05-18T10:27:22.370-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-05-18T10:58:30.757-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    fileReference="/content/dam/wknd/en/los-angeles/julien-lanoy-355982.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                </image_593468405>
             </responsivegrid>
         </root>
     </jcr:content>
